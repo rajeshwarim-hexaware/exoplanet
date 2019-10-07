@@ -39,7 +39,7 @@ public class ExoPlanetController {
 	 * 
 	 * @return response contains ResponseEntity<Integer>
 	 */
-	@ApiOperation(value = "Get Count of OrphanPlanets ", notes = "This methos will get the number of orphan planets (no star)", response = Integer.class, tags = {
+	@ApiOperation(value = "Get Count of OrphanPlanets ", notes = "This methods will get the number of orphan planets (no star)", response = Integer.class, tags = {
 			"ExoPlanetData" })
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "ok", response = Integer.class) })
 	@GetMapping(value = REST_API_ORPHAPLANET_COUNT)
@@ -61,7 +61,7 @@ public class ExoPlanetController {
 	 * 
 	 * @return response contains ResponseEntity<String>
 	 */
-	@ApiOperation(value = "Find the name of the planet Orbiting the hottest star", notes = "This methos will get the  name (planet identifier) of the planet orbiting the hottest star", response = ResponseBean.class, tags = {
+	@ApiOperation(value = "Find the name of the planet Orbiting the hottest star", notes = "This methods will get the  name (planet identifier) of the planet orbiting the hottest star", response = ResponseBean.class, tags = {
 			"ExoPlanetData" })
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "ok", response = String.class) })
 	@GetMapping(value = REST_API_HOTTEST_STAR_PLANET_NAME)
@@ -83,7 +83,7 @@ public class ExoPlanetController {
 	 * 
 	 * @return response contains ResponseEntity<TimeLine>
 	 */
-	@ApiOperation(value = "Find the timeline of the number of planets discovered per year grouped by size.", notes = "This methos will get A timeline of the number of planets discovered per year grouped by size.", response = ResponseBean.class, tags = {
+	@ApiOperation(value = "Find the timeline of the number of planets discovered per year grouped by size.", notes = "This methods will get A timeline of the number of planets discovered per year grouped by size.", response = ResponseBean.class, tags = {
 			"ExoPlanetData" })
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "ok", response = TimeLine.class) })
 	@GetMapping(value = REST_API_TIMELINE, produces = MediaType.APPLICATION_JSON_VALUE)
@@ -106,7 +106,7 @@ public class ExoPlanetController {
 	 * 
 	 * @return response contains ResponseEntity<ResponseBean>
 	 */
-	@ApiOperation(value = "Get The Statistics of ExoPlanet ie OrphanPlanets count,planet Orbiting the hotst star,timeline", notes = "This methos will get the Statistics of ExoPlanet ie OrphanPlanets count,planet Orbiting the hotst star,timeline", response = ResponseBean.class, tags = {
+	@ApiOperation(value = "Get The Statistics of ExoPlanet ie OrphanPlanets count,planet Orbiting the hottest star,timeline", notes = "This methods will get the Statistics of ExoPlanet ie OrphanPlanets count,planet Orbiting the hottest star,timeline", response = ResponseBean.class, tags = {
 			"ExoPlanetData" })
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "ok", response = ResponseBean.class) })
 	@GetMapping(value = REST_API_EXOPLANET_STATISTICS, produces = MediaType.APPLICATION_JSON_VALUE)
