@@ -18,7 +18,7 @@ From Commandline
     git clone https://github.com/rajeshwarim-hexaware/exoplanet.git
 2. Build and start exoPlanet-svc
 
-    cd exoPlanet-svc\exoplanet 
+    cd exoplanet\exoPlanet-svc\exoplanet 
     
     mvn clean install
     
