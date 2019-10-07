@@ -167,7 +167,7 @@ public class ApplicationStartupLoader {
 	}
 
 	private String getHottestStarPlanetName(List<Planet> exoPlanetlist) {
-		LOGGER.info("ExoPlanet Service finding planet Orbiting the hotst star");
+		LOGGER.info("ExoPlanet Service finding planet Orbiting the hotest star");
 		try {
 			Optional<Planet> option = exoPlanetlist.stream().max(Comparator.comparing(Planet::getHostStarTempK));
 			if (!option.isPresent())
@@ -175,8 +175,8 @@ public class ApplicationStartupLoader {
 			else
 				return option.get().getPlanetIdentifier();
 		} catch (Exception e) {
-			LOGGER.warn("Something went wrong while finding planet Orbiting the hotst star");
-			throw new ExoPlanetServiceException("Error finding planet Orbiting the hotst star" + e);
+			LOGGER.warn("Something went wrong while finding planet Orbiting the hotest star");
+			throw new ExoPlanetServiceException("Error finding planet Orbiting the hotest star" + e);
 
 		}
 	}
