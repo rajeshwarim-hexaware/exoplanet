@@ -50,7 +50,7 @@ function App() {
           data={data.planetStatisticsByYear}
           columns={columns}
           defaultPageSize={10}
-          pageSizeOptions={[3, 6]}
+          pageSizeOptions={[10,3, 6]}
           className="-striped -highlight"
         />
       </div>
