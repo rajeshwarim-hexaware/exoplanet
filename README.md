@@ -17,9 +17,13 @@ From Commandline
 1.  Clone the exoplanet git repo
     git clone https://github.com/rajeshwarim-hexaware/exoplanet.git
 2. Build and start exoPlanet-svc
+
     cd exoPlanet-svc\exoplanet 
+    
     mvn clean install
+    
     java -jar target/exoplanet-0.0.1-SNAPSHOT.jar
+    
  3. exoPlanet-svc sevice is ready to use at http://localhost:2104/api/swagger-ui.html#/
  
  From eclipse/IntelliJ
