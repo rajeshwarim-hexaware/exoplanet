@@ -22,6 +22,8 @@ From Commandline
     
     mvn clean install
     
+    mvn test
+    
     java -jar target/exoplanet-0.0.1-SNAPSHOT.jar
     
  3. exoPlanet-svc sevice is ready to use at http://localhost:2104/api/swagger-ui.html#/
