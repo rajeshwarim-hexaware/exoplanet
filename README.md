@@ -14,11 +14,11 @@ exoPlanet-ui is a React application uses expoPlanet-svc service to build user in
 To Run exoPlanet-svc Service:
 
 From Commandline
-1.  Clone the exoplanet git repo
+1.  Clone the exoplanet git repo 
     git clone https://github.com/rajeshwarim-hexaware/exoplanet.git
 2. Build and start exoPlanet-svc
 
-    cd exoplanet\exoPlanet-svc\exoplanet 
+    cd exoplanet/exoPlanet-svc/exoplanet 
     
     mvn clean install
     
@@ -32,7 +32,7 @@ From Commandline
  3. exoPlanet-svc sevice is ready to use at http://localhost:2104/api/swagger-ui.html#/
  
  To Run exoPlanet-ui
- 1. cd exoPlanet-ui\exoPlanet
+ 1. cd exoPlanet-ui/exoPlanet
  2. npm install
  3. npm start
  4. exoPlanet UI is ready to use at http://localhost:3000/
