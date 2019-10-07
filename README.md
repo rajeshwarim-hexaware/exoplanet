@@ -3,7 +3,7 @@
 ### Overview
 exoPlanet-svc Service is a simple Spring Boot application uses Java 1.8 and Maven. On startup, the application loads the specified JSON file into memory.
 exoPlanet-svc Service provides the below list of services to the user.
-1.  GET /exoPlanetStatistics Get the Statistics of ExoPlanet ie Orphan Planets count,planet Orbiting the hotest star,timeline
+1.  GET /exoPlanetStatistics Get the Statistics of ExoPlanet ie Orphan Planets count,planet Orbiting the hottest star,timeline
 2.  GET /hottestStarPlanetName Find the name of the planet Orbiting the hottest
 3.  GET /noOfOrphanPlanets Get Count of Orphan Planets
 4.  GET /timeLineFind the timeline of the number of planets discovered in a year grouped by size.
